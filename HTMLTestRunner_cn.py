@@ -207,6 +207,11 @@ class Template_mixin(object):
     %(stylesheet)s
 </head>
 <body>
+<style type="text/css">
+    pre {
+            white-space: pre-wrap;
+        } 
+</style>
 <script language="javascript" type="text/javascript">
 output_list = Array();
 
@@ -484,7 +489,6 @@ a.popup_link:hover {
     font-family: "Lucida Console", "Courier New", Courier, monospace;
     text-align: left;
     font-size: 8pt;
-    width: 500px;
 }
 
 }
